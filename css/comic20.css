@@ -1,0 +1,640 @@
+.comic-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    border: 3px solid rgb(249, 181, 181);
+    font-family: 'Shantell Sans', sans-serif;
+}
+
+.comic__item {
+    width: 50%;
+    height: 300px;
+    border: 3px solid rgb(0, 0, 0);
+    position: relative;
+}
+
+.comic__img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.cloud-img {
+    width: 100%;
+}
+
+.comic__item1 .cloud1 {
+    position: absolute;
+    width: 200px;
+    top: -40px;
+    left: 0;
+}
+
+.comic__item1 .cloud-img1 {
+    transform: scaleX(-1);
+}
+
+.comic__item1 .cloud2 {
+    position: absolute;
+    width: 200px;
+    right: 8%;
+    bottom: 5px;
+
+}
+
+.comic__item1 .cloud-img2 {
+    transform: scaleX(1) scaleY(-1);
+}
+
+.comic__item1 .text1 {
+    position: absolute;
+    top: 82px;
+    right: 55px;
+    font-size: 13px;
+    left: 20px;
+}
+
+.comic__item1 .text2 {
+    position: absolute;
+    left: 50px;
+    bottom: 87px;
+    font-size: 16px;
+
+}
+
+@media(max-width:500px) {
+    .comic__item {
+        width: 100%;
+    }
+}
+
+@media(max-width:500px) {
+    .comic__item1 .cloud1 {
+        width: 200px;
+        top: 100px;
+        left: 0;
+
+    }
+
+    .comic__item1 .cloud-img1 {
+        transform: scaleX(-1) scaleY(-1);
+    }
+
+    .comic__item1 .cloud2 {
+        position: absolute;
+        width: 200px;
+        right: 50px;
+        bottom: 50px;
+    }
+
+    .comic__item1 .cloud-img2 {
+        transform: rotate(180deg);
+    }
+}
+
+
+
+.comic__item2 .cloud3 {
+    position: absolute;
+    width: 220px;
+    right: 0%;
+    bottom: 110px;
+}
+
+.comic__item2 .cloud-img3 {
+    transform: scaleX(1) scaleY(1);
+}
+
+.comic__item2 .cloud4 {
+    position: absolute;
+    width: 200px;
+    right: 15%;
+    bottom: -50px;
+
+}
+
+.comic__item2 .cloud-img4 {
+    transform: scaleX(1) scaleY(-1);
+}
+
+.comic__item2 .text3 {
+    position: absolute;
+    top: 89px;
+    right: 30px;
+    font-size: 11px;
+    left: 52px;
+}
+
+.comic__item2 .text4 {
+    position: absolute;
+    left: 47px;
+    bottom: 80px;
+    font-size: 12px;
+
+}
+
+@media(max-width:500px) {
+    .comic__item {
+        width: 100%;
+    }
+}
+
+@media(max-width:500px) {
+    .comic__item2 .cloud3 {
+        width: 200px;
+        top: 100px;
+        left: 0;
+
+    }
+
+    .comic__item2 .cloud-img3 {
+        transform: scaleX(-1) scaleY(-1);
+    }
+
+    .comic__item2 .cloud4 {
+        position: absolute;
+        width: 200px;
+        right: 50px;
+        bottom: 50px;
+    }
+
+    .comic__item2 .cloud-img4 {
+        transform: rotate(180deg);
+    }
+}
+
+
+
+.comic__item3 .cloud5 {
+    position: absolute;
+    width: 220px;
+    right: 28%;
+    bottom: 140px;
+}
+
+.comic__item3 .cloud-img5 {
+    transform: scaleX(1) scaleY(1);
+}
+
+.comic__item3 .cloud6 {
+    position: absolute;
+    width: 200px;
+    right: 35%;
+    bottom: -10px;
+
+}
+
+.comic__item3 .cloud-img6 {
+    transform: scaleX(-1) scaleY(-1);
+}
+
+.comic__item3 .text5 {
+    position: absolute;
+    top: 89px;
+    right: 30px;
+    font-size: 12px;
+    left: 47px;
+}
+
+.comic__item3 .text6 {
+    position: absolute;
+    left: 25px;
+    bottom: 90px;
+    font-size: 12px;
+    right: 30px;
+}
+
+@media(max-width:500px) {
+    .comic__item {
+        width: 100%;
+    }
+}
+
+@media(max-width:500px) {
+    .comic__item3 .cloud5 {
+        width: 200px;
+        top: 100px;
+        left: 0;
+
+    }
+
+    .comic__item3 .cloud-img5 {
+        transform: scaleX(-1) scaleY(1);
+    }
+
+    .comic__item3 .cloud6 {
+        position: absolute;
+        width: 200px;
+        right: 50px;
+        bottom: 50px;
+    }
+
+    .comic__item3 .cloud-img6 {
+        transform: rotate(180deg);
+    }
+}
+
+
+
+
+.comic__item4 .cloud7 {
+    position: absolute;
+    width: 220px;
+    right: 55%;
+    bottom: 140px;
+}
+
+.comic__item4 .cloud-img7 {
+    transform: scaleX(1) scaleY(1);
+}
+
+.comic__item4 .text7 {
+    position: absolute;
+    top: 89px;
+    right: 30px;
+    font-size: 12px;
+    left: 47px;
+}
+
+@media(max-width:500px) {
+    .comic__item {
+        width: 100%;
+    }
+}
+
+@media(max-width:500px) {
+    .comic__item4 .cloud7 {
+        width: 200px;
+        top: 100px;
+        left: 0;
+
+    }
+
+    .comic__item4 .cloud-img7 {
+        transform: scaleX(-1) scaleY(1);
+    }
+}
+
+
+
+.comic__item5 .cloud9 {
+    position: absolute;
+    width: 220px;
+    right: 15%;
+    bottom: 140px;
+}
+
+.comic__item5 .cloud-img9 {
+    transform: scaleX(1) scaleY(1);
+}
+
+.comic__item5 .cloud10 {
+    position: absolute;
+    width: 200px;
+    right: 63%;
+    bottom: 100px;
+
+}
+
+.comic__item5 .cloud-img10 {
+    transform: scaleX(-1) scaleY(-1);
+}
+
+.comic__item5 .text9 {
+    position: absolute;
+    top: 89px;
+    right: 20px;
+    font-size: 11px;
+    left: 47px;
+}
+
+.comic__item5 .text10 {
+    position: absolute;
+    left: 25px;
+    bottom: 100px;
+    font-size: 12px;
+    right: 30px;
+}
+
+@media(max-width:500px) {
+    .comic__item {
+        width: 100%;
+    }
+}
+
+@media(max-width:500px) {
+    .comic__item5 .cloud9 {
+        width: 200px;
+        top: 100px;
+        left: 0;
+
+    }
+
+    .comic__item5 .cloud-img9 {
+        transform: scaleX(-1) scaleY(1);
+    }
+
+    .comic__item5 .cloud10 {
+        position: absolute;
+        width: 200px;
+        right: 50px;
+        bottom: 20px;
+    }
+
+    .comic__item5 .cloud-img10 {
+        transform: rotate(180deg);
+    }
+}
+
+
+
+.comic__item6 .cloud11 {
+    position: absolute;
+    width: 220px;
+    right: 55%;
+    bottom: -30px;
+}
+
+.comic__item6 .cloud-img11 {
+    transform: scaleX(1) scaleY(1);
+}
+
+.comic__item6 .text11 {
+    position: absolute;
+    top: 97px;
+    right: 30px;
+    font-size: 12px;
+    left: 47px;
+}
+
+@media(max-width:500px) {
+    .comic__item {
+        width: 100%;
+    }
+}
+
+@media(max-width:500px) {
+    .comic__item6 .cloud11 {
+        width: 200px;
+        top: 100px;
+        left: 0;
+
+    }
+
+    .comic__item6 .cloud-img11 {
+        transform: scaleX(-1) scaleY(1);
+    }
+}
+
+
+
+
+.comic__item7 .cloud13 {
+    position: absolute;
+    width: 200px;
+    right: 62%;
+    bottom: 40px;
+}
+
+.comic__item7 .cloud-img13 {
+    transform: scaleX(-1) scaleY(1);
+}
+
+.comic__item7 .text13 {
+    position: absolute;
+    top: 85px;
+    right: 30px;
+    font-size: 12px;
+    left: 20px;
+}
+
+@media(max-width:500px) {
+    .comic__item {
+        width: 100%;
+    }
+}
+
+@media(max-width:500px) {
+    .comic__item7 .cloud13 {
+        width: 200px;
+        top: 100px;
+        left: 0;
+
+    }
+
+    .comic__item7 .cloud-img13 {
+        transform: scaleX(-1) scaleY(1);
+    }
+}
+
+
+
+.comic__item8 .cloud15 {
+    position: absolute;
+    width: 220px;
+    right: 20%;
+    bottom: 140px;
+}
+
+.comic__item8 .cloud-img15 {
+    transform: scaleX(1) scaleY(1);
+}
+
+.comic__item8 .cloud16 {
+    position: absolute;
+    width: 200px;
+    right: 20%;
+    bottom: 35px;
+
+}
+
+.comic__item8 .cloud-img16 {
+    transform: scaleX(1) scaleY(-1);
+}
+
+.comic__item8 .text15 {
+    position: absolute;
+    top: 89px;
+    right: 30px;
+    font-size: 11px;
+    left: 50px;
+}
+
+.comic__item8 .text16 {
+    position: absolute;
+    left: 47px;
+    bottom: 90px;
+    font-size: 12px;
+    right: 30px;
+}
+
+@media(max-width:500px) {
+    .comic__item {
+        width: 100%;
+    }
+}
+
+@media(max-width:500px) {
+    .comic__item8 .cloud15 {
+        width: 200px;
+        top: 100px;
+        left: 0;
+
+    }
+
+    .comic__item8 .cloud-img15 {
+        transform: scaleX(-1) scaleY(1);
+    }
+
+    .comic__item8 .cloud16 {
+        position: absolute;
+        width: 200px;
+        right: 50px;
+        bottom: 20px;
+    }
+
+    .comic__item8 .cloud-img16 {
+        transform: rotate(180deg);
+    }
+}
+
+
+
+.comic__item9 .cloud17 {
+    position: absolute;
+    width: 220px;
+    right: 2%;
+    bottom: 50px;
+}
+
+.comic__item9 .cloud-img17 {
+    transform: scaleX(1) scaleY(1);
+}
+
+.comic__item9 .cloud18 {
+    position: absolute;
+    width: 220px;
+    right: 55%;
+    bottom: -35px;
+
+}
+
+.comic__item9 .cloud-img18 {
+    transform: scaleX(-1) scaleY(-1);
+}
+
+.comic__item9 .text17 {
+    position: absolute;
+    top: 89px;
+    right: 30px;
+    font-size: 11px;
+    left: 50px;
+}
+
+.comic__item9 .text18 {
+    position: absolute;
+    left: 18px;
+    bottom: 93px;
+    font-size: 11px;
+    right: 30px;
+}
+
+@media(max-width:500px) {
+    .comic__item {
+        width: 100%;
+    }
+}
+
+@media(max-width:500px) {
+    .comic__item9 .cloud17 {
+        width: 200px;
+        top: 100px;
+        left: 0;
+
+    }
+
+    .comic__item9 .cloud-img17 {
+        transform: scaleX(-1) scaleY(1);
+    }
+
+    .comic__item9 .cloud18 {
+        position: absolute;
+        width: 200px;
+        right: 50px;
+        bottom: 20px;
+    }
+
+    .comic__item9 .cloud-img18 {
+        transform: rotate(180deg);
+    }
+}
+
+
+
+.comic__item10 .cloud19 {
+    position: absolute;
+    width: 220px;
+    right: 20%;
+    bottom: 90px;
+}
+
+.comic__item10 .cloud-img19 {
+    transform: scaleX(1) scaleY(-1);
+}
+
+.comic__item10 .cloud20 {
+    position: absolute;
+    width: 200px;
+    right: 55%;
+    bottom: -35px;
+
+}
+
+.comic__item10 .cloud-img20 {
+    transform: scaleX(-1) scaleY(-1);
+}
+
+.comic__item10 .text19 {
+    position: absolute;
+    top: 89px;
+    right: 30px;
+    font-size: 11px;
+    left: 50px;
+}
+
+.comic__item10 .text20 {
+    position: absolute;
+    left: 55px;
+    bottom: 93px;
+    font-size: 12px;
+    right: 50px;
+}
+
+@media(max-width:500px) {
+    .comic__item {
+        width: 100%;
+    }
+}
+
+@media(max-width:500px) {
+    .comic__item10 .cloud19 {
+        width: 200px;
+        top: 100px;
+        left: 0;
+
+    }
+
+    .comic__item10 .cloud-img19 {
+        transform: scaleX(-1) scaleY(1);
+    }
+
+    .comic__item10 .cloud20 {
+        position: absolute;
+        width: 200px;
+        right: 50px;
+        bottom: 20px;
+    }
+
+    .comic__item10 .cloud-img20 {
+        transform: rotate(180deg);
+    }
+}
